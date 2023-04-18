@@ -15,7 +15,6 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://postegre:5432/users_db
     username: postgres
-
     password: insy2s
 
 
@@ -36,7 +35,10 @@ server:
 
   #  Eureka configuration
 eureka :
-  instance:
-    client:
-      serviceUrl:
-       defaultZone: http://eureka-service:8761/
+ instance:
+    hostname: Security_Service
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eureka-service:8761/eureka
