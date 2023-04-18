@@ -13,7 +13,7 @@ spring:
       connection-timeout: 60000
       maximum-pool-size: 30
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/Users_db
+    url: jdbc:postgresql://DB-server:5432/Users_db
     username: postgres
 
     password: insy2s
@@ -39,4 +39,4 @@ eureka :
   instance:
     client:
       serviceUrl:
-       defaultZone: http://localhost:8761/
+       defaultZone: http://eureka-server:8761/
