@@ -1,7 +1,10 @@
+spring:
+  application:
+    name: Gateway_Service
 eureka :
   instance:
     hostname: config-server
-   client:
+  client:
      registerWithEureka: true
      fetchRegistry: true
      serviceUrl:
