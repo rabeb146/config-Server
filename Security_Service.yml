@@ -35,10 +35,10 @@ server:
 
   #  Eureka configuration
 eureka :
- instance:
+  instance:
     hostname: Security_Service
   client:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://eureka-service:8761/eureka
+      defaultZone: http://eureka-server:8761/eureka
