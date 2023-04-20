@@ -7,10 +7,9 @@ spring:
       name: Email_Service
 eureka :
   instance:
-   client:
+  client:
     serviceUrl:
-     defaultZone: http://localhost:8761/
-
+     defaultZone: http://eureka-server:8761/
 
 
 
