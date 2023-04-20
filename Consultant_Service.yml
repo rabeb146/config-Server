@@ -1,10 +1,7 @@
 spring:
   application:
-    name: Consultant-Service
-  security:
-    user:
-      name: mabrouka
-      password: annabi
+    name: Consultant_Service
+  
 
 
   # Database
