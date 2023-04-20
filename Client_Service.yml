@@ -2,7 +2,7 @@ eureka :
   instance:
     client:
       serviceUrl:
-        defaultZone: http://eureka-server:8761/
+        defaultZone: http://eureka-server:8761/eureka
 
 
 spring:
