@@ -12,7 +12,7 @@ spring:
       connection-timeout: 60000
       maximum-pool-size: 30
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://postgres:5432/consultant-db
+    url: jdbc:postgresql://Consultant-postgres:5432/consultant-db
     username: postgres
 
     password: insy2s
