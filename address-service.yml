@@ -13,7 +13,6 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://Address-postgres:5432/address_db
     username: postgres
-
     password: insy2s
 
 
@@ -33,8 +32,8 @@ server:
   port: 8083
 eureka :
   instance:
-    client:
-      serviceUrl:
-        defaultZone: http://eureka-server:8761/eureka
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server:8761/eureka
 
 message: From User Service 123
