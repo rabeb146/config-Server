@@ -28,11 +28,12 @@ spring:
       hibernate:
         format_sql: true
 #  Server configuration
-server:
-  port: 8083
 eureka :
   instance:
+    hostname: AddressService
   client:
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
       defaultZone: http://eureka-server:8761/eureka
 
