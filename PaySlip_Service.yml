@@ -17,7 +17,6 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://Payslip-postgres:5432/payslip-db
     username: postgres
-
     password: insy2s
 
   jpa:
@@ -37,7 +36,7 @@ server:
   
 eureka:
   instance:
-    hostname: PaySlip_Service
+    hostname: Payslip_Service
   client:
     registerWithEureka: true
     fetchRegistry: true
