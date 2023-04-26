@@ -33,3 +33,5 @@ spring:
 
 server:
   port: 8081
+user:
+  url: http://GatewayService:8080/api/auth
