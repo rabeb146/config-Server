@@ -14,7 +14,7 @@ spring:
       name: mabrouka
       password: annabi
   datasource:
-    url: jdbc:postgresql://activity-postgres:5432/Activity
+    url: jdbc:postgresql://Activity-postgres:5432/activity-db
     username: postgres
     password: insy2s
     driver-class-name: org.postgresql.Driver
