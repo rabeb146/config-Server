@@ -4,10 +4,7 @@ spring:
 
 
     
-  security:
-    user:
-      name: mabrouka
-      password: annabi
+
   data:
     mongodb:
       database: admin
@@ -21,9 +18,9 @@ server:
 
 eureka :
   instance:
-    client:
-      serviceUrl:
-        defaultZone: http://eureka-server:8761/
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server:8761/
 
 user:
   url: http://localhost:8090/api/auth
