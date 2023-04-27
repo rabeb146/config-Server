@@ -3,14 +3,17 @@ spring:
     name: Gateway_Service
 eureka :
   instance:
-    hostname: config-server
+    hostname: Gateway_Service
   client:
      registerWithEureka: true
      fetchRegistry: true
      serviceUrl:
-      defaultZone: http://eureka-server:8761/eureka
+        defaultZone: http://eureka-server:8761/eureka
 
-
+security:
+    user:
+      name: mabrouka
+      password: annabi
 
 
 server:
