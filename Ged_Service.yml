@@ -2,7 +2,10 @@ spring:
   application:
     name: Ged_Service
 
-
+  security:
+    user:
+      name: mabrouka
+      password: annabi
     
 
   data:
@@ -18,6 +21,7 @@ server:
 
 eureka:
   instance:
+      hostname: Ged_Service
   client:
     registerWithEureka: true
     fetchRegistry: true
