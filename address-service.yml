@@ -30,12 +30,15 @@ spring:
 #  Server configuration
 eureka :
   instance:
-    hostname: AddressService
+    #hostname: AddressService
+    preferIpAddress: true
+    hostname: eureka-0
   client:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://eureka-server:8761/eureka
+      #defaultZone: http://eureka-server:8761/eureka
+      defaultZone: http://eureka-0.eureka.default.svc.cluster.local:8761/eureka
 user:
   url: http://GatewayService:8080/api/auth
 message: From User Service 123
