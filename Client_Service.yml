@@ -24,14 +24,14 @@ spring:
     
 eureka :
   instance:
-    #hostname: Client_Service
-    hostname: eureka-0
+    hostname: Client_Service
+
   client:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      #defaultZone: http://eureka-server:8761/eureka
-      defaultZone: http://eureka-0.eureka.default.svc.cluster.local:8761/eureka
+      defaultZone: http://eureka-server:8761/eureka
+      
 
 server:
   port: 8081
