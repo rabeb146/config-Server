@@ -23,4 +23,4 @@ eureka :
 server:
   port: 8086
 user:
-  url: http://GatewayService:8080/api/auth
+  url: http://GatewayService:8090/api/auth
